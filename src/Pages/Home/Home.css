@@ -37,18 +37,17 @@
     color: rgb(0, 0, 0);
 }
 
-.main p{
+.main .envios p{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid #000000;
-}
-.envios{
+    border: 2px solid #000000;
     max-width: 100%;
-    margin: 0 auto; 
-    padding: 20px;
+    padding: 15px;
 }
+
+
 
 .conteiner-home  {
     position: relative;
@@ -61,6 +60,7 @@
     height: 100%;
     object-fit: cover;
     object-position: center;
+    margin-top: 20px;
 }
 
 .main div h1 {

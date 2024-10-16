@@ -21,14 +21,14 @@ const Home = () => {
 
               <h3>LOS MEJORES EN TECNOLOGIA</h3>
           <div className='envios'>
-            <p>///////// ENVIOS A TODO EL PAIS// ENVIOS A TODO EL PAIS // ENVIOS A TODO EL PAIS // ENVIOS A TODO EL PAIS // ENVIOS A TODO EL PAIS // ENVIOS A TODO EL PAIS // ENVIOS A TODO EL PAIS /////////</p>
+            <p>// ENVIOS A TODO EL PAIS //</p>
           </div>
           </div>
 
 
           
           <div className='conteiner-home'>
-            <img src="/oferta.jpg" alt="" />
+              <img src="/oferta.jpg" alt="" />
             </div>
         </main>
         <div className="footer"> <Footer /></div>
