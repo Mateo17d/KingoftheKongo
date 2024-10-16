@@ -29,7 +29,9 @@ const Shop = () => {
             <main className="shop-main">
                 {
                     isLoading
-                        ? <h2>Cargando...</h2>
+                        ? <div className="cargando">
+                        <h2>Cargando...</h2>
+                        </div>
                         : products.map(
                             (producto) => {
                                 return (

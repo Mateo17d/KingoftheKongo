@@ -19,7 +19,7 @@ const Home = () => {
               KING OF THE KONGO <br />
             </h1>
 
-              <h3>LOS MEJORES EN TECNOLOGIA</h3>
+              <h3 className='eslogan'>LOS MEJORES EN TECNOLOGIA</h3>
           <div className='envios'>
             <p>// ENVIOS A TODO EL PAIS //</p>
           </div>
