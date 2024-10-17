@@ -12,7 +12,7 @@ const solicitarProductos = async () => {
 }
 
 
-export const obtenerProductoPorId = async (id) => {
+const obtenerProductoPorId = async (id) => {
     const URL_API_PRODUCTS = 'http://localhost:5173/data/products.json'
 
     const respuestaHttp = await fetch(URL_API_PRODUCTS,
@@ -30,5 +30,4 @@ export const obtenerProductoPorId = async (id) => {
 }
 
 
-
-export default solicitarProductos
+export { solicitarProductos, obtenerProductoPorId }
