@@ -4,7 +4,11 @@ import useProducts from '../../hooks/useProducts'
 import './Shop.css'
 import {useNavigate} from 'react-router-dom'
 
-
+const solicitarDatos = async () => {
+    const respuestaHttp = await fetch('https://jsonplaceholder.typicode.com/todos/1')
+    const resultado = await respuestaHttp.json()
+    console.log(resultado)
+  }
 
 
 const Shop = () => {
