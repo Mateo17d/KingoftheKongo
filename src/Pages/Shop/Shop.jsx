@@ -9,7 +9,7 @@ import {useNavigate} from 'react-router-dom'
 
 
 const solicitarDatos = async () => {
-    const respuestaHttp = await fetch('https://jsonplaceholder.typicode.com/todos/1')
+    const respuestaHttp = await fetch('http://localhost:5173/data/products.json')
     const resultado = await respuestaHttp.json()
     console.log(resultado)
 }
