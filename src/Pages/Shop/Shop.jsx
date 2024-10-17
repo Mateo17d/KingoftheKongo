@@ -7,18 +7,8 @@ import {useNavigate} from 'react-router-dom'
 
 
 
-
-const solicitarDatos = async () => {
-    const respuestaHttp = await fetch('http://localhost:5173/data/products.json')
-    const resultado = await respuestaHttp.json()
-    console.log(resultado)
-}
-
-
-
-
 const Shop = () => {
-    // Desestructuración de objeto
+    
     const { isLoading, products } = useProducts()
 
     const navigate = useNavigate();
